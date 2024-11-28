@@ -7,8 +7,8 @@ import pandas as pd
 import os
 load_dotenv()
 
-CLIENT_ID =st.secrets('CLIENT_ID')
-CLIENT_SECRET =st.secrets('CLIENT_SECRET')
+CLIENT_ID =st.secrets['CLIENT_ID']
+CLIENT_SECRET =st.secrets['CLIENT_SECRET']
 REDIRECT_URI ='http://localhost:5000'
 
 if os.path.exists('.cache'):
