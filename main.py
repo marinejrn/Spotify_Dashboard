@@ -6,7 +6,7 @@ import pandas as pd
 # Configuration de l'application Spotify
 CLIENT_ID = st.secrets["CLIENT_ID"]
 CLIENT_SECRET = st.secrets["CLIENT_SECRET"]
-REDIRECT_URI = "https://<votre-nom-utilisateur>.streamlit.app"
+REDIRECT_URI = "https://spotifydashboard-bymarine-journu.streamlit.app"
 scope = "user-top-read user-read-recently-played"
 
 # Titre de l'application
