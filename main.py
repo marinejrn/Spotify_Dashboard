@@ -15,12 +15,11 @@ if os.path.exists('.cache'):
     os.remove('.cache')
 
 sp=spotipy.Spotify(    
-   st.session_state["auth_manager"] = SpotifyOAuth(
+   auth_manager = SpotifyOAuth(
         client_id=CLIENT_ID,
         client_secret=CLIENT_SECRET,
         redirect_uri=REDIRECT_URI,
         scope="user-top-read user-read-recently-played",
-        open_browser=True
     )
 )
 
