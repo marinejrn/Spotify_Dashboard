@@ -9,7 +9,7 @@ load_dotenv()
 
 CLIENT_ID =st.secrets['CLIENT_ID']
 CLIENT_SECRET =st.secrets['CLIENT_SECRET']
-REDIRECT_URI ='http://localhost:5000'
+REDIRECT_URI ='http://spotifydashboard-bymarine-journu'
 
 if os.path.exists('.cache'):
     os.remove('.cache')
