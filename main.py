@@ -7,9 +7,9 @@ import pandas as pd
 import os
 load_dotenv()
 
-CLIENT_ID =st.secrets['CLIENT_ID']
-CLIENT_SECRET =st.secrets['CLIENT_SECRET']
-REDIRECT_URI =st.secrets["REDIRECT_URI"]
+CLIENT_ID = st.secrets["CLIENT_ID"]
+CLIENT_SECRET = st.secrets["CLIENT_SECRET"]
+REDIRECT_URI = st.secrets["REDIRECT_URI"]
 
 sp=spotipy.Spotify(    
    auth_manager = SpotifyOAuth(
