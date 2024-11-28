@@ -21,7 +21,7 @@ sp=spotipy.Spotify(
 )
 
 st.set_page_config(page_title='Spotify Dashboard', page_icon=':musical_note')
-st.title('Spotify Wrap')
+st.title('Spotify TEEEEEEST')
 st.write('Discover your Spotify listening habits')
 
 top_tracks = sp.current_user_top_tracks(limit=20, time_range='medium_term')
