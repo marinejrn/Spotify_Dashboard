@@ -13,14 +13,14 @@ REDIRECT_URI ='http://spotifydashboard-bymarine-journu'
 
 if os.path.exists('.cache'):
     os.remove('.cache')
-    
+
 sp=spotipy.Spotify(    
-    auth_manager=SpotifyOAuth(
+   st.session_state["auth_manager"] = SpotifyOAuth(
         client_id=CLIENT_ID,
         client_secret=CLIENT_SECRET,
         redirect_uri=REDIRECT_URI,
-        scope = "user-top-read user-read-recently-played",
-        show_dialog=True 
+        scope="user-top-read user-read-recently-played",
+        open_browser=True
     )
 )
 
