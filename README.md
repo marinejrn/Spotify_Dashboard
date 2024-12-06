@@ -27,5 +27,6 @@ Après s'être connecté, on est ramené à mon site (pour l'instant toujours en
 ![image](https://github.com/user-attachments/assets/65485cc9-5370-4ab7-8e21-72fa0be8275a)
 
 Voilà mon classement sur le long terme, n'hésitez pas à aller les écouter ;) 
-![image](https://github.com/user-attachments/assets/8b4d59ad-9790-4c6e-9bb3-840d9b6a0eea)
+![image](https://github.com/user-attachments/assets/16c1b551-8cf8-47c6-bd18-58832c2de2fe)
+
 
