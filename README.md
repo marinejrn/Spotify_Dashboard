@@ -23,9 +23,6 @@ Ce projet met en avant des outils modernes de **Data Science**, d'**automatisati
 ---
 
 ## 🎧 Un aperçu ?
-Tout d'abord nous avons la page d'authentification officielle de Spotify : 
-
-
 Après s'être connecté, on est ramené à mon site (pour l'instant toujours en local !). On a alors le choix d'afficher sur 4 semaines, 6 mois ou l'historique sur le long terme :   
 ![image](https://github.com/user-attachments/assets/65485cc9-5370-4ab7-8e21-72fa0be8275a)
 
